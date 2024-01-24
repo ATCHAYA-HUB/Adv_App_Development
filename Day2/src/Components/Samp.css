@@ -1,0 +1,103 @@
+    .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+      position: relative;
+      opacity: 0.65;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    
+    }
+    
+    .bgimg-1 {
+      background-image: url("wel46.jpg");
+      min-height: 400px;
+    }
+    .bgimg-4 {
+      background-image: url("wel31.jpg");
+      min-height: 400px;
+    }
+    
+    .bgimg-2 {
+      background-image: url("wel36.jpg");
+      min-height: 400px;
+    }
+    
+    .bgimg-3 {
+      background-image: url("https://images.pexels.com/photos/1190298/pexels-photo-1190298.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+      min-height: 400px;
+    }
+    .caption {
+      position: absolute;
+      left: 0;
+      top: 50%;
+      width: 100%;
+      text-align: center;
+      color: #000;
+    }
+    
+    .caption span.border {
+      background-color: #111;
+      color: #fff;
+      padding: 18px;
+      font-size: 25px;
+      letter-spacing: 10px;
+    }
+    
+    .samph3 {
+      letter-spacing: 5px;
+      text-transform: uppercase;
+      font: 20px "Lato", sans-serif;
+      color: #510606;
+    }
+    .ppar1{
+      position: relative;
+      top:15px;
+    }
+    .border{
+      background-color:transparent;
+      font-size:25px;
+      color: #f7f7f7;
+    }
+    .border1{
+      background-color: white;
+      color: rgb(0, 0, 0);
+    }
+  .par1{
+    color: #000;
+    position: relative;
+    top: 20px;
+  }
+  .par{
+      text-align: center;
+      color: #0f9597;
+      position: relative;
+      top: -20px;
+      height: 0px;
+      font-size:x-large;
+  }
+  .parup{
+      color:#ddd;
+      background-color:#000000;
+      font: 16px "Lato", sans-serif;
+
+      text-align:center;
+      padding:45px 80px;
+  }
+  .pardiv1{
+      color: #777;
+      background-color:white;
+      text-align:center;
+      padding:50px 80px;
+      text-align: justify;
+  }
+  .pardiv2{
+  position:relative;
+  }
+  .pardiv3{
+      color:#000000;
+      font: 16px "Lato", sans-serif;
+
+      background-color:#ffffff;
+      text-align:center;
+      padding:45px 80px; 
+  }
