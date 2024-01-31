@@ -1,0 +1,45 @@
+
+.about-us-container {
+    padding: 20px;
+    text-align: justify;
+    margin-left: 10px;
+  } 
+  .about-us-container h1 {
+    font-size: 2em;
+    color: #333;
+  }
+  .about-us-container p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  .contact-section,
+  .partners-section {
+    margin-top: 40px;
+  }
+  .contact-section h2,
+  .partners-section h2 {
+    font-size: 1.8em;
+    color: #333;
+  }
+  .contact-section p,
+  .partners-section p {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+  }
+  
+  .contact-section address {
+    font-style: normal;
+    font-size: 1.2em;
+    line-height: 1.6;
+  }
+  
+  .partners-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .partners-section li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }  
