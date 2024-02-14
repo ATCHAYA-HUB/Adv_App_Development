@@ -1,0 +1,290 @@
+.abbg{
+    text-align: center;
+    padding: 35px 35px 45px 35px;
+    text-transform: capitalize;
+    margin-top: 12px;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(to right, #f49a9a 0%, #ea004a  41%, #fd5d70 100%);
+    transition: 0.5s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+              background-size: 200% auto;
+              border-radius: 100px;
+              display: block;
+  }
+  .statistics-section {
+    margin-top: -210px;
+    position: relative;
+    text-align: center;
+  
+    padding: 15px 15px 30px 15px;
+    color: rgb(255, 255, 255);
+    /* background-image: linear-gradient(to right, #f7b7b7 0%, #ea004a  51%, #fd5d70 100%); */
+    border-radius: 8px;
+    transition: 0.5s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+              background-size: 200% auto;
+              border-radius: 10px;
+              display: block;
+  }
+  
+  .statistics-section h2 {
+    font-size: 1.8em;
+    color: #333;
+  }
+  
+  .statistics-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    text-transform: capitalize;
+    margin-top: 20px;
+  }
+  
+  .statistic-item {
+    text-align: center;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    /* border-radius: 8px; */
+    transition: 0.5s;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); */
+    text-align: center;
+              background-size: 200% auto;
+              border-radius: 10px;
+              display: block;
+  }
+  .abbg:hover{
+    text-underline-offset: 3px;
+    background-position: right center; /* change the direction of the change here */
+    color: #494848;
+    text-decoration: none;
+  }
+  .statistic-item:hover{
+    text-underline-offset: 3px;
+    background-position: right center; /* change the direction of the change here */
+    color: #494848;
+    text-decoration: none;
+  }
+  .statistic-value {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .statistic-label {
+    font-size: 1.2em;
+    color: #555;
+  }
+  .about-us-container {
+    font: 20px "Lato", sans-serif;
+  
+      padding: 20px;
+      /* text-align: justify; */
+      margin-left: 10px;
+    } 
+    .about-us-container h1 {
+      font-size: 2em;
+      color: #333;
+    }
+    .about-us-container p {
+      font-size: 0.9em;
+      line-height: 1.6;
+      padding-left: 40px;
+      padding-top: 20px;
+      padding-right: 50%;
+    }
+    .contact-section,
+    .partners-section {
+      margin-top: 40px;
+      padding: 10px 10px 10px 25px;
+    }
+    .contact-section h2,
+    .partners-section h2 {
+      font-size: 1.8em;
+      color: #333;
+    }
+    .contact-section p,
+    .partners-section p {
+      font-size: 1.2em;
+      margin-bottom: 15px;
+    }
+    
+    .contact-section address {
+      font-style: normal;
+      font-size: 1.2em;
+      line-height: 1.6;
+    }
+    
+    .partners-section ul {
+      list-style: none;
+      padding: 0;
+    }
+    
+    .partners-section li {
+      font-size: 1.2em;
+      margin-bottom: 10px;
+    }  
+  /* About.css */
+  
+  .video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+  }
+  
+  .video-background video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .about-us-container {
+    padding: 20px;
+    /* text-align: justify; */
+    margin-left: 10px;
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    border-radius: 10px;
+    animation: fadeIn 1s ease-in-out; /* Fade-in animation */
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .css-1adt0p6{
+    width:100vw;
+    height:100vh;
+    object-fit: cover;
+  }
+  
+  .video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Black with 70% opacity */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .overlay-content h3 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .overlay-content p {
+    font-size: 1.2em;
+    margin: 0; /* Remove default margin */
+  }
+  
+  .services-section {
+    margin-top: 40px;
+    padding: 10px 30px 10px 25px;
+    margin-bottom: 30px;
+  
+  }
+  
+  .services-section h2 {
+    font-size: 1.8em;
+    color: #333;
+  }
+  
+  .services-grid {
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+  }
+  .fonthome{
+    margin-left: 20px;
+    font:700 15px "Lato", sans-serif;
+    border-radius: 25px;
+    padding: 7px 13px;
+    
+    transition: 0.5s;
+    background-size: 200% auto;
+  background-image: linear-gradient(45deg, #f3ec78, #fc327c 37%, #f3ec78);
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent; 
+  }
+  .fonthome:hover{
+    text-underline-offset: 3px;
+    background-position: right center; /* change the direction of the change here */
+    text-decoration: none;
+    color: transparent;  /* Set font color to transparent on hover */
+  }
+  .fonthome1{
+    margin-left: 20px;
+    font:530 15px "Lato", sans-serif;
+    border-radius: 25px;
+    padding: 7px 13px;
+    
+    transition: 0.5s;
+    background-size: 200% auto;
+  background-image: linear-gradient(45deg, #f3ec78, #e94263 75%, #f378a5);
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  }
+  .service-item {
+    text-align: center;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(to right, #f7b7b7 0%, #ea004a  51%, #fd5d70 100%);
+    border-radius: 8px;
+    transition: 0.5s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    background-size: 200% auto;
+    border-radius: 10px;
+    display: block;
+  }
+  .service-item:hover{
+    text-underline-offset: 3px;
+    background-position: right center; /* change the direction of the change here */
+    color: #494848;
+    text-decoration: none;
+  }
+  
+  .service-item img {
+    width: 100%;
+    max-height: 150px;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .service-details {
+    padding: 15px;
+  }
+  
+  .service-details h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .service-details p {
+    font-size: 0.7em;
+    margin-bottom: 15px;
+    padding: 0px;
+  }

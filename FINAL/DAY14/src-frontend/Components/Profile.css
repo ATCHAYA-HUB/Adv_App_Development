@@ -1,0 +1,89 @@
+.prohome{
+    background-color: rgb(255, 255, 255);
+   height: 150vh;
+    width:1270px;
+}
+.probg{
+background-color: rgb(255, 255, 255);
+background-size: cover;
+width: 100vh;
+height: 50vh;
+}
+.imgpro{
+    background-image: url(D:\adcvApp\react-app\src\Images\pro7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 290px;
+    border-radius: 10px;
+    width:400px;
+    position: relative;
+    top: 80px; left:800px;
+}
+.imgbcont{
+    background-color: #0b0025;
+    height:115px;
+    width: 380px;
+    position: relative;
+    left: 700px;
+    top:20px;
+    color: rgb(251, 251, 251);
+    padding: 15px 20px;
+    border-radius:10px;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(to right, #f0004c 0%, #f0004c  1%, #fcd3d7 100%);
+    transition: 0.5s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+              background-size: 200% auto;
+              border-radius: 30px;
+              display: block;
+}
+.probtn{
+    position: relative;
+    left:95px;
+    height:50px;
+    width:160px;
+}
+.redux{
+    position:relative;
+    top:-10px;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 700;
+    text-decoration:none;
+    margin-bottom: 15px;
+    padding-right: 10px;
+}
+.probox{
+    color: rgb(102, 102, 102);
+    margin-top: -30px;
+}
+.protitle{
+    font-size: 27px;
+  font-weight: 700;
+  line-height: 30px;
+  color: #000000;
+  margin-top: -330px;
+
+}
+* {
+    font-family: Nunito, sans-serif;
+  }
+.boxprofile{
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(to right, #f49a9a 0%, #ea004a  41%, #fd5d70 100%);
+    transition: 0.5s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+              background-size: 200% auto;
+              border-radius: 30px;
+              display: block;
+}
+.boxprofile:hover{
+    text-underline-offset: 3px;
+    background-position: right center; /* change the direction of the change here */
+    color: #150b43;
+    text-decoration: none;
+}
